@@ -1,8 +1,8 @@
 site_name: Art Tools by Dmitry Gubkin
 site_url: http://DmitryGubkin.github.io/DG_ArtToolsDoc
-repo_name: DG_ArtToolsDoc
-repo_url: https://github.com/DmitryGubkin/DG_ArtToolsDoc
-edit_uri: ""
+# repo_name: DG_ArtToolsDoc
+# repo_url: https://github.com/DmitryGubkin/DG_ArtToolsDoc
+# edit_uri: ""
 
 plugins:
   - search # necessary for search to work
