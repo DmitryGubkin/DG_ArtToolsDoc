@@ -9,17 +9,18 @@ plugins:
   - awesome-pages
 theme:
   name: material
-  scheme: slate
-  palette: 
-    - scheme: default
-      primary: teal
-      accent: teal
-      toggle:
-        icon: material/weather-sunny 
-        name: Switch to dark mode
+  scheme: slate # set default mode
+  palette:
     - scheme: slate
       primary: teal
       accent: teal
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny 
+        name: Switch to dark mode
+    
