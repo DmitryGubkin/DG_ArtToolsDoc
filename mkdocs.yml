@@ -1,7 +1,7 @@
 site_name: Art Tools by Dmitry Gubkin
-repo_url: https://github.com/DmitryGubkin/ArtToolsDoc
-repo_name: 'GitHub'
-edit_uri: tree/master/docs/
+plugins:
+  - search # necessary for search to work
+  - awesome-pages
 theme:
   name: material
   scheme: slate
