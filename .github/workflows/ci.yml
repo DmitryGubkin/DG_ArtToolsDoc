@@ -16,4 +16,3 @@ jobs:
              mkdocs-awesome-pages-plugin
       - run: mkdocs gh-deploy --force
       
-      
