@@ -3,13 +3,32 @@ site_url: http://DmitryGubkin.github.io/DG_ArtToolsDoc
 # repo_name: DG_ArtToolsDoc
 # repo_url: https://github.com/DmitryGubkin/DG_ArtToolsDoc
 # edit_uri: ""
+markdown_extensions:
+  - meta
+  - tables
+  - attr_list
+  - abbr
+  - md_in_html
+  - footnotes
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search # necessary for search to work
   - awesome-pages
 theme:
   name: material
+  custom_dir: overrides
   scheme: slate # set default mode
+  features:
+    - navigation.sections
   palette:
     - scheme: slate
       primary: teal
@@ -23,4 +42,16 @@ theme:
       toggle:
         icon: material/weather-sunny 
         name: Switch to dark mode
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/dmitry-gubkin-3d/
+    - icon: fontawesome/brands/artstation
+      link: https://www.artstation.com/?sort_by=trending
+    - icon: social/gumroad
+      link: https://dmitry-gubkin.gumroad.com/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/c/DmitryGubkinGhostStudio/videos
+copyright: Copyright © 2022, Dmitry Gubkin. All rights reserved.
+
     
