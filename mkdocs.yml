@@ -45,6 +45,7 @@ theme:
     - navigation.expand
     - navigation.indexes
     - navigation.top
+    - search.suggest
   palette:
     - scheme: slate
       primary: teal
@@ -80,7 +81,6 @@ nav:
   - 3ds Max:
       - Orient to World:
         - 3dsMax\orientToWorld\index.md
-        #- License: 3dsMax\orientToWorld\license.md
 
 ### Navigation End ###
 
