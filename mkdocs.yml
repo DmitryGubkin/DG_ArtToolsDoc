@@ -3,6 +3,8 @@ site_url: http://DmitryGubkin.github.io/DG_ArtToolsDoc
 # repo_name: DG_ArtToolsDoc
 # repo_url: https://github.com/DmitryGubkin/DG_ArtToolsDoc
 # edit_uri: ""
+
+### MD Ext ###
 markdown_extensions:
   - meta
   - tables
@@ -10,25 +12,39 @@ markdown_extensions:
   - abbr
   - md_in_html
   - footnotes
+  - toc:
+      permalink: true
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
       options:
         custom_icons:
           - overrides/.icons
-  
+### MD Ext End ###
+
+### CSS ###
 extra_css:
   - stylesheets/extra.css
+### CSS End ###
 
+### Plugins ###
 plugins:
   - search # necessary for search to work
   - awesome-pages
+### Plugins End ###
+
+### Theme ###
 theme:
   name: material
   custom_dir: overrides
   scheme: slate # set default mode
   features:
-    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
   palette:
     - scheme: slate
       primary: teal
@@ -42,6 +58,9 @@ theme:
       toggle:
         icon: material/weather-sunny 
         name: Switch to dark mode
+### Theme End ###
+
+### Footer ###
 extra:
   social:
     - icon: fontawesome/brands/linkedin
@@ -53,5 +72,16 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/c/DmitryGubkinGhostStudio/videos
 copyright: Copyright © 2022, Dmitry Gubkin. All rights reserved.
+### Footer End ###
+
+### Navigation ###
+nav:
+  - Home: index.md
+  - 3ds Max:
+      - Orient to World:
+        - 3dsMax\orientToWorld\index.md
+        #- License: 3dsMax\orientToWorld\license.md
+
+### Navigation End ###
 
     
