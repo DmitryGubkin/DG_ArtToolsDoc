@@ -81,7 +81,7 @@ nav:
   - 3ds Max:
       - Orient to World:
         - '3dsMax\orientToWorld\index.md'
-        #- License: 3dsMax\orientToWorld\license.md
+        - License: '3dsMax\orientToWorld\license.md'
 
 ### Navigation End ###
 
