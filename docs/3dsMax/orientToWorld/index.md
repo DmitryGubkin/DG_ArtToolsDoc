@@ -1,6 +1,7 @@
 # Orient to World
 - [X] feature 1
 - [X] feature 2
+- [X] feature 3
 
 [![Everything Is AWESOME](https://yt-embed.herokuapp.com/embed?v=dQw4w9WgXcQ)](https://www.youtube.com/watch?v=dQw4w9WgXcQ "Everything Is AWESOME"){target=_blank}
 ## Requirements
