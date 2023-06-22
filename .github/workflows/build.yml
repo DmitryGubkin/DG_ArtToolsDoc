@@ -14,6 +14,7 @@ jobs:
           python-version: 3.8
       - run: pip install \
              mkdocs-material \
-             mkdocs-awesome-pages-plugin
+             mkdocs-awesome-pages-plugin \
+             mkdocs-video
       - run: mkdocs gh-deploy --force
       

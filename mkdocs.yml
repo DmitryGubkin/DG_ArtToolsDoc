@@ -34,6 +34,7 @@ extra_css:
 plugins:
   - search # necessary for search to work
   - awesome-pages
+  - mkdocs-video
 ### Plugins End ###
 
 ### Theme ###
